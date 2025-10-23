@@ -1,7 +1,7 @@
 import GlassCard from '../components/GlassCard';
 
 export default function Home() {
-  const DASHBOARD_MFE_URL = import.meta.env.VITE_DASHBOARD_URL || 'http://localhost:5174';
+  const DASHBOARD_MFE_URL = import.meta.env.VITE_DASHBOARD_URL || 'https://red-desert-069ed9f0f.3.azurestaticapps.net/';
 
   return (
     <div className="container mx-auto px-4 pt-28 pb-12">
